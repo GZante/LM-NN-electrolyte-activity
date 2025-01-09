@@ -1,6 +1,6 @@
 # Activity Coefficients Prediction using a Levenberg-Marquardt Neural Network
 
-This repository contains a Python script for predicting activity coefficients using a Levenberg-Marquardt Neural Network (LM-NN). The script uses the Pyrenn library for neural network creation and training, and Scikit-learn for data preprocessing and evaluation metrics.
+This repository contains a Python script for predicting activity coefficients using a Levenberg-Marquardt Neural Network (LM-NN). This algorithm allows reaching convergence quickly and is efficient on small databses. The script uses the Pyrenn library for neural network creation and training, and Scikit-learn for data preprocessing and evaluation metrics.
 
 
 ## Introduction
@@ -35,4 +35,4 @@ MAE: Mean Absolute Error
 RMSE: Root Mean Squared Error
 AARD: Average Absolute Relative Deviation
 
-Best results that obtained by selecting multiple electrolytes (a few hundred datapoints) of electrolytes of the same family (sulfates, chlorides, nitrates...).  
+Best results were obtained by selecting multiple electrolytes (a few hundred datapoints) of electrolytes of the same family (sulfates, chlorides, nitrates...).  
